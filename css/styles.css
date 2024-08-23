@@ -637,3 +637,276 @@ hr {
   margin: 0;
   color: #92989F;
 }
+/* Media Queries */
+
+/* Smaller devices (tablets, mobiles) */
+@media (max-width: 1200px) {
+  /* Navbar */
+  .navbar {
+    padding: 0 40px;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 100px 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  /* Friendliest Section */
+  .Friendliest {
+    flex-direction: column;
+    padding: 100px 40px;
+  }
+
+  .Friendliest img {
+    max-width: 250px;
+  }
+
+  .Friendliest .Friendliest-left {
+    margin-bottom: 30px;
+  }
+
+  /* Kits Section */
+  .Kits-section {
+    padding: 100px 40px;
+  }
+
+  .Kits-types {
+    flex-direction: column;
+  }
+
+  .Kits-item {
+    margin-bottom: 20px;
+  }
+
+  .woc-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .woc-section p {
+    font-size: 1.1rem;
+  }
+
+  /* Energy section */
+  .Energy-item img {
+    max-width: 295px;
+  }
+}
+
+
+/* Mobile devices (up to 768px) */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  .tabs {
+    margin: 20px 0;
+  }
+
+  .tabs a {
+    margin: 0 15px;
+    font-size: 16px;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .num {
+    font-size: 20px;
+  }
+
+  .WOC-section {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .WOC-left {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .WOC-right {
+    margin: 0;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 80px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* Friendliest Section */
+  .Friendliest {
+    padding: 80px 20px;
+    flex-direction: column;
+  }
+
+  .Friendliest h1 {
+    font-size: 32px;
+  }
+
+  .styled-list li {
+    font-size: 18px;
+  }
+
+  .Friendliest img {
+    max-width: 250px;
+  }
+
+  /* Kits Section */
+  .Kits-section {
+    padding: 80px 20px;
+  }
+
+  .Kits-types {
+    flex-direction: column;
+  }
+
+  .Kits-item {
+    margin-bottom: 20px;
+  }
+
+  /* Energy Section */
+  .Energy {
+    flex-direction: column;
+    padding: 80px 20px;
+  }
+
+  .Energy-left, .Energy-center, .Energy-right {
+    margin-bottom: 30px;
+  }
+
+.Energy-item img {
+  max-width: 280px;
+}
+
+  /* Values Section */
+  .Values-section {
+    padding: 80px 20px;
+  }
+
+  .Values-types {
+    flex-direction: column;
+  }
+
+  .Values-item {
+    margin-bottom: 30px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 40px 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left, .footer-right {
+    margin-bottom: 20px;
+  }
+
+  .footer-right input {
+    max-width: 280px;
+  }
+
+  .footer-left ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-left ul li {
+    margin: 0 10px;
+  }
+}
+
+/* Extra small devices (mobiles up to 480px) */
+@media (max-width: 480px) {
+  /* Navbar */
+  .tabs a {
+    font-size: 14px;
+  }
+
+  /* Hero Section */
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  /* Friendliest Section */
+  .Friendliest h1 {
+    font-size: 24px;
+  }
+
+  .styled-list li {
+    font-size: 16px;
+  }
+
+  .Friendliest img {
+    max-width: 250px;
+  }
+
+  /* Buttons */
+  .buttons button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+/* WOC Section */
+.WOC-section {
+  padding: 20px;
+}
+
+.WOC-left h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.WOC-left p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.WOC-right p {
+  font-size: 18px;
+}
+/* Energy section */
+.Energy-item img {
+  max-width: 260px;
+}
+}
